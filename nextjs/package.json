@@ -9,19 +9,21 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
+    "@libsql/client": "0.3.6",
+    "@prisma/adapter-libsql": "5.9.0-dev.11",
+    "next": "14.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@neondatabase/serverless": "0.6.0",
-    "@prisma/adapter-neon": "5.8.0-dev.38",
-    "@prisma/client": "^5.8.0-dev.38",
+    "@prisma/adapter-neon": "5.9.0-dev.11",
+    "@prisma/client": "5.9.0-dev.11",
     "@types/node": "^18.0.0",
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
     "bufferutil": "~4.0.8",
-    "prisma": "^5.8.0-dev.38",
+    "prisma": "5.9.0-dev.11",
     "serve": "^14.2.0",
     "typescript": "^4.7.4",
     "utf-8-validate": "~6.0.3",
